@@ -25,7 +25,7 @@ pygmentsUseClasses=true
     url = "/"
     weight = -9 
   [[menu.main]]
-    name = "about"
+    name = "about me"
     pre = "<i class=\"fas fa-user fa-sm\"></i>"
     url = "/about"
     weight = -8 
