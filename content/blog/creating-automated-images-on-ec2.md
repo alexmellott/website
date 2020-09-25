@@ -1,5 +1,5 @@
 ---
-title: "Creating Automated Images on Ec2"
+title: "Creating Automated Images on Amazon EC2"
 date: 2020-09-25T17:03:14-04:00
 draft: false
 ---
