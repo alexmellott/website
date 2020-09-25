@@ -1,0 +1,56 @@
+baseURL = "https://alexmellott.github.io"
+languageCode = "en-us"
+title = "Alex Mellott"
+copyright = "© 2020 Alex Mellott. All rights reserved."
+theme = "npq-hugo"
+pygmentsUseClasses=true
+
+[params]
+  author = "Alex Mellott"
+  description = "Alex Mellott's blog"
+  keywords = "alexmellott blog"
+  useAvatar = true
+  microBlogSection = "posts"
+  displayMicroBlog = false
+  displayRecent = true
+  displayHomeContent = true
+  recentMax = 4
+  mail = "alex@alexmellott.com"
+  formspreeID = "mqkgazkv"
+
+[menu]
+  [[menu.main]]
+    name = "home"
+    pre = "<i class=\"fas fa-home fa-sm\"></i>"
+    url = "/"
+    weight = -9 
+  [[menu.main]]
+    name = "about"
+    pre = "<i class=\"fas fa-user fa-sm\"></i>"
+    url = "/about"
+    weight = -8 
+  [[menu.main]]
+    name = "blog"
+    pre = "<i class=\"fas fa-keyboard fa-ms\"></i>"
+    url = "/blog/"
+    weight = -7
+  [[menu.main]]
+    name = "tags"
+    pre = "<i class=\"fas fa-tags fa-ms\"></i>"
+    url = "/tags"
+    weight = -6 
+  [[menu.main]]
+    name = "github"
+    pre = "<i class=\"fab fa-github fa-ms\"></i>"
+    url = "https://github.com/alexmellott"
+    weight = -5 
+  [[menu.main]]
+    name = "RSS"
+    pre = "<i class=\"fas fa-rss fa-ms\"></i>"
+    url = "/index.xml"
+    weight = -4 
+  [[menu.main]]
+    name = "contact"
+    pre = "<i class=\"far fa-envelope\"></i>"
+    url = "/contact"
+    weight = -1 
